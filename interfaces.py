@@ -169,8 +169,9 @@ class GraphicLanderInterface:
         
         
     def show_info(self, lander):
-        """This method currently gets the lander info then draws it.
-        That's it. It doesn't actually show any information."""
+        """gets the lander info, displays as a text, and then 
+        redraws the lander
+        """
         alt = lander.get_altitude()
 
         # if lander polygon is drawn, undraw it
